@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
+import { Header } from './Header/header.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
+  imports: [Header]
 })
 export class AppComponent {
   dummyTrafficData = [
